@@ -1,0 +1,13 @@
+/* style code implemented later*/
+body {
+   background-color : pink;
+   background-image: url("img/transparentpaper1.png");
+   text-align: center;
+    /* later replaced with better image */
+}
+
+h1 {
+    font-family: "handsome-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
