@@ -8,13 +8,12 @@ body {
 
  h1{
     font-family: "handsome-pro", sans-serif;
-    font-weight: 400;
     font-style: bold;
  }
 
  h2 {
     font-family: "handsome-pro", sans-serif;
-    font-weight: 400;
+    font-size: 72px;
     font-style: bold;
  }
 
@@ -31,10 +30,11 @@ body {
     padding: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
  }
 
- .images {
-    width: 75%;
+ images {
+    width: 50%;
  }
 
  .text {
