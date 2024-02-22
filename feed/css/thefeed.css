@@ -1,52 +1,79 @@
 /* style code implemented later*/
 
+div.fixed {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 150px;
+}
+
+nav {
+   font-family: "Playpen Sans", cursive;
+   font-size: 50px;
+   font-style: normal;
+   a {
+      text-decoration: none;
+   }
+   color:black;
+}
+
+nav a:visited{
+   color: black;
+}
+
 body {
-    background-color : pink;
-    text-align: center;
-     /* later replaced with better image */
- }
+   text-align: center;
+   background-image: linear-gradient(to bottom right, pink , rgb(250, 132, 163));
+   background-image: url("../../img/leather-background.png");
+   /* later replaced with better image */
+}
 
- h1{
-    font-family: "handsome-pro", sans-serif;
-    font-style: bold;
- }
+h1{
+   font-family: "handsome-pro", sans-serif;
+   font-size: 150px;
+   font-style: bold;
+}
 
- h2 {
-    font-family: "handsome-pro", sans-serif;
-    font-size: 72px;
-    font-style: bold;
- }
+h2 {
+   font-family: "handsome-pro", sans-serif;
+   font-size: 72px;
+   font-style: bold;
+}
 
  p {
-    font-family: "Playpen Sans", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
- }
+   font-family: "Playpen Sans", cursive;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
 
  .pages {
-    background-image: url("../../img/transparentpaper1.png");
-    background-color : white;
-    margin: 100px;
-    padding: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
- }
+   background-image: url("../../img/transparentpaper1.png");
+   background-color : white;
+   margin: 100px;
+   padding: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
 
- images {
-    width: 50%;
- }
+.images {
+   width: 75%;
+}
 
  .text {
-    width: 50%;
- }
+   width: 25%;
+}
 
- #videos {
-    height: 480px;
-    width: 222px
- }
+#videos {
+   height: 480px;
+   width: 222px
+}
 
- #movie {
-    height: 411px;
-    width: 720px;
- }
+#movie {
+   height: 411px;
+   width: 720px;
+}
+
+div.fixed:hover {
+   background-color:pink;
+}

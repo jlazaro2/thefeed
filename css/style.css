@@ -1,9 +1,11 @@
-/* style code implemented later*/
 body {
-   background-color : pink;
+   background-color: white;
    background-image: url("img/transparentpaper1.png");
    text-align: center;
-    /* later replaced with better image */
+}
+
+#homepage_button:hover {
+    background-color:pink;
 }
 
 h1 {
