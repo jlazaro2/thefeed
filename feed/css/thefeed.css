@@ -1,37 +1,73 @@
 /* style code implemented later*/
+nav h1 {
+   font-family: "handsome-pro", sans-serif;
+   font-size: 125px;
+   font-style: bold;
+   margin: 50px;
+}
 
 div.fixed {
    position: fixed;
-   bottom: 0;
+   bottom: -20px;
    left: 0;
-   width: 150px;
 }
 
-nav {
-   font-family: "Playpen Sans", cursive;
-   font-size: 50px;
+div.fixed a {
+   position: fixed;
+   bottom: 6%;
+   left: 1%;
+   text-decoration: none;
+   font-family: "handsome-pro", sans-serif;
+   font-size: 70px;
    font-style: normal;
-   a {
-      text-decoration: none;
-   }
-   color:black;
+   transform: rotate(10deg);
+}
+
+.wrapper {
+   font-family: "Playpen Sans", cursive;
+   font-size: 30px;
+   font-style: normal;
+   margin: 50px;
+}
+
+nav{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   position:relative;
+
+   font-family: "Playpen Sans", cursive;
+   font-size: 20px;
+   font-style: normal;
+
+   height: 10px;
+   margin: 20px;
+   z-index: 10;
+   top: -50px;
+}
+
+a {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover{
+   color: magenta;
+   text-decoration: underline;
 }
 
 nav a:visited{
    color: black;
+   text-decoration: none;
 }
 
 body {
    text-align: center;
    background-image: linear-gradient(to bottom right, pink , rgb(250, 132, 163));
+   /* if image doesn't show up */
    background-image: url("../../img/leather-background.png");
-   /* later replaced with better image */
-}
-
-h1{
-   font-family: "handsome-pro", sans-serif;
-   font-size: 150px;
-   font-style: bold;
 }
 
 h2 {
@@ -40,24 +76,60 @@ h2 {
    font-style: bold;
 }
 
- p {
+p {
    font-family: "Playpen Sans", cursive;
    font-optical-sizing: auto;
    font-style: normal;
 }
 
- .pages {
+.pages {
    background-image: url("../../img/transparentpaper1.png");
    background-color : white;
    margin: 100px;
    padding: 50px;
    display: flex;
    flex-direction: row;
-   justify-content: space-evenly;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+   align-items: center;
+   overflow-wrap: break-word;
+}
+
+#page1 {
+   margin-top: 175px;
+}
+
+#page1 img {
+   height: 600px;
+}
+
+#page2 img {
+   height: 600px;
+}
+
+#page4 img {
+   height: 600px;
+}
+
+#page6 img {
+   height: 600px;
+}
+
+#page7 img {
+   height: 600px;
+}
+
+#page8 img {
+   height: 600px;
+}
+
+#page10 img {
+   height: 600px;
 }
 
 .images {
-   width: 75%;
+   min-width: 75%;
+   padding: 0;
 }
 
  .text {
@@ -72,8 +144,4 @@ h2 {
 #movie {
    height: 411px;
    width: 720px;
-}
-
-div.fixed:hover {
-   background-color:pink;
 }
