@@ -86,13 +86,15 @@ p {
    background-image: url("../../img/transparentpaper1.png");
    background-color : white;
    margin: 100px;
-   padding: 50px;
+   padding: 50px 100px 50px;
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-evenly;
+   position: relative;
    flex-wrap: nowrap;
    align-items: center;
    overflow-wrap: break-word;
+   gap: 50px;
 }
 
 #page1 {
@@ -127,13 +129,8 @@ p {
    height: 600px;
 }
 
-.images {
-   min-width: 75%;
-   padding: 0;
-}
-
- .text {
-   width: 25%;
+#page11 img {
+   height: 400px;
 }
 
 #videos {
